@@ -1,0 +1,65 @@
+body{
+    background: rgb(0, 0, 0);
+}
+
+.photo{
+    margin-left: 9%;
+    border-radius: 15px;
+    max-width: 80% ;
+    max-height: 80% ;
+    width: auto;
+    height: auto;
+}
+
+#title{
+    color:rgb(86, 13, 155);
+    margin: 2%;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post_title{
+    color:rgb(112, 0, 79);
+    font-size: 150%;
+    font-size: italic;
+    margin: 0;
+    margin-bottom: 1.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post{
+    background: rgb(39, 38, 38);
+    padding: 1%;
+    border: 3px solid rgb(0, 117, 0);
+    margin: 2.5%;
+    margin-bottom: 1.5%;
+    border-radius: 10px;
+}
+
+.post_content, .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12, .p13, .p14, .p15{
+    margin:2.5%;
+    text-align: center;
+    line-height: -10;
+    margin-bottom: 1.5%;
+    font-size: 125%;
+    font-family:'Arial Narrow Bold';
+}
+
+.post_image{
+    margin-left: 17%;
+    margin-bottom: 1.5%;
+    max-width: 75% ;
+    max-height: 75% ;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 1.5%px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
+}
